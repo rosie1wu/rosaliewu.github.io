@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 480" width="650" height="480">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600&amp;family=Inter:wght@400;500&amp;display=swap');
+    .quadrant-name { font-family: 'Chakra Petch', sans-serif; font-weight: 600; font-size: 15px; fill: #222; }
+    .quadrant-desc { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 13px; fill: #888; }
+    .emoji { font-size: 28px; }
+    .axis-label { font-family: 'Chakra Petch', sans-serif; font-weight: 600; font-size: 13px; fill: #222; letter-spacing: 0.05em; }
+    .axis-end { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 12px; fill: #666; }
+  </style>
+
+  <rect width="650" height="480" fill="#fff"/>
+
+  <g transform="translate(80, 40)">
+
+    <!-- Quadrant backgrounds -->
+    <rect x="0" y="0" width="250" height="180" rx="4" fill="#f7f7f7" stroke="#e0e0e0" stroke-width="1"/>
+    <rect x="260" y="0" width="250" height="180" rx="4" fill="#e8f5e9" stroke="#d0d0d0" stroke-width="1"/>
+    <rect x="0" y="190" width="250" height="180" rx="4" fill="#fce8e8" stroke="#e8e8e8" stroke-width="1"/>
+    <rect x="260" y="190" width="250" height="180" rx="4" fill="#f7f7f7" stroke="#e0e0e0" stroke-width="1"/>
+
+    <!-- Top-left: The Irrelevant Narrative -->
+    <text x="125" y="75" text-anchor="middle" class="emoji">💬</text>
+    <text x="125" y="105" text-anchor="middle" class="quadrant-name">Irrelevant Narrative</text>
+    <text x="125" y="125" text-anchor="middle" class="quadrant-desc">Stagnant</text>
+
+    <!-- Top-right: The Flywheel -->
+    <text x="385" y="75" text-anchor="middle" class="emoji">🚀</text>
+    <text x="385" y="105" text-anchor="middle" class="quadrant-name">Sustainable Engine</text>
+    <text x="385" y="125" text-anchor="middle" class="quadrant-desc">Compounding</text>
+
+    <!-- Bottom-left: The Dead Zone -->
+    <text x="125" y="265" text-anchor="middle" class="emoji">📉</text>
+    <text x="125" y="295" text-anchor="middle" class="quadrant-name">Dead Zone</text>
+    <text x="125" y="315" text-anchor="middle" class="quadrant-desc">Drifting</text>
+
+    <!-- Bottom-right: The Perpetual Tactician -->
+    <text x="385" y="265" text-anchor="middle" class="emoji">🔍</text>
+    <text x="385" y="295" text-anchor="middle" class="quadrant-name">Perpetual Tactician</text>
+    <text x="385" y="315" text-anchor="middle" class="quadrant-desc">Fragile</text>
+
+    <!-- X-axis -->
+    <text x="0" y="400" text-anchor="start" class="axis-end">Low</text>
+    <text x="255" y="400" text-anchor="middle" class="axis-label">GROWTH →</text>
+    <text x="510" y="400" text-anchor="end" class="axis-end">High</text>
+
+    <!-- Y-axis -->
+    <text x="-45" y="375" text-anchor="middle" class="axis-end" transform="rotate(-90, -45, 375)">Low</text>
+    <text x="-45" y="190" text-anchor="middle" class="axis-label" transform="rotate(-90, -45, 190)">BRAND →</text>
+    <text x="-45" y="15" text-anchor="middle" class="axis-end" transform="rotate(-90, -45, 15)">High</text>
+
+  </g>
+</svg>
